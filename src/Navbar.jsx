@@ -1,10 +1,14 @@
 const Navbar = () => {
     return (
         <nav className="navbar">
-          <h1>Modern react</h1>
+          <h1>Modern React</h1>
           <div className="links">
                 <a href="/">Home</a>
-                <a href="/create">New blog</a>
+                <a href="/create" style={{
+                  color: "white",
+                  backgroundColor: '#f1356d',
+                  borderRadius: '8px'
+                }}>New blog</a>
           </div>
         </nav>
      );
