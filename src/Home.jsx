@@ -3,6 +3,7 @@ import BlogList from './BlogList';
 
 const Home = () => {
     const [blogs, setBlogs] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
     const[name, setName] = useState('Yousif');
     const[count, setCount] = useState(0);
 
@@ -13,9 +14,12 @@ const Home = () => {
             return res.json();
         })
         .then(data => {
+            setTimeout (()=>{
             setBlogs(data);
-        })
-    }, [count]);
+            setIsLoading(false);
+            }, 3000);
+        });
+    }, []);
 
     return ( 
         <div className="home">
@@ -24,6 +28,7 @@ const Home = () => {
             <p>{name}</p>
             <button onClick={()=>setCount(count + 1)}>Number of units</button>
             <p>{count}</p>
+            {isLoading && <p>Loading ...</p>}
         </div>
      );
 }
