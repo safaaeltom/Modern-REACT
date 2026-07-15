@@ -4,26 +4,35 @@ import BlogList from './BlogList';
 const Home = () => {
     const [blogs, setBlogs] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] =useState(null);
     const[name, setName] = useState('Yousif');
     const[count, setCount] = useState(0);
 
     useEffect(()=>{
-        setTimeout (()=>{
-        console.log('Effect ran');
+      setTimeout (()=>{
         fetch('http://localhost:8000/blogs')
-        .then(res => {
+          .then(res => {
+            if(!res.ok){
+              throw Error('could not fetch data')
+            }
             return res.json();
-        })
-        .then(data => {
+          })
+          .then(data => {
             setBlogs(data);
             setIsLoading(false);
-        });
-        }, 3000);
+          })
+          .catch(err=>{
+            setError(err.message);
+            setIsLoading(false);
+            setError(null);
+          })
+      }, 3000);
     }, []);
 
     return ( 
         <div className="home">
-            {isLoading && <p>Loading ...</p>}
+            {error && <div>{error}</div>}
+            {isLoading && <div>Loading ...</div>}
             {blogs && <BlogList blogs={blogs} title="All Blogs!"/>}
             <button onClick={()=>setName('Safaa')}>Change user</button>
             <p>{name}</p>
