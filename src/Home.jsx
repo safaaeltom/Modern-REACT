@@ -12,6 +12,8 @@ const Home = () => {
       setTimeout (()=>{
         fetch('http://localhost:8000/blogs')
           .then(res => {
+            console.log(res);
+
             if(!res.ok){
               throw Error('could not fetch data')
             }
@@ -23,6 +25,9 @@ const Home = () => {
             setError(null);
           })
           .catch(err=>{
+            console.log(err);
+            console.log(err.message);
+
             setError(err.message);
             setIsLoading(false);
           })
