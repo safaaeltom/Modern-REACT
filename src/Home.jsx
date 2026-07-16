@@ -20,11 +20,11 @@ const Home = () => {
           .then(data => {
             setBlogs(data);
             setIsLoading(false);
+            setError(null);
           })
           .catch(err=>{
             setError(err.message);
             setIsLoading(false);
-            setError(null);
           })
       }, 3000);
     }, []);
