@@ -12,5 +12,18 @@
       "author": "yoshi",
       "id": 2
     }
+  ],
+
+   "employees": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "job": "Frontend Developer"
+    },
+    {
+      "id": 2,
+      "name": "Sara",
+      "job": "UI Designer"
+    }
   ]
 }
