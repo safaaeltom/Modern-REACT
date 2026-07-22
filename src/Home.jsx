@@ -10,7 +10,7 @@ const Home = () => {
             {error && <div>{error}</div>}
             {isLoading && <div>Loading ...</div>}
             {/* {blogs && <BlogList blogs={blogs} title="All Blogs!"/>} */}
-            {employees && <EmployeeList employees={employees} />}
+            {employees && <EmployeeList employees={employees} title="Frontend Team"/>}
         </div>
      );
 }

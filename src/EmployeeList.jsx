@@ -1,8 +1,10 @@
-const EmployeeList = ({employees}) => {
+const EmployeeList = ({employees, title}) => {
+
     return ( 
         <div className="employee-list">
+            <h2>{title}</h2>
             {employees.map((employee) => (
-                <div key={employee.id}>
+                <div className="employee-preview" key={employee.id}>
                     <h2>{employee.name}</h2>
                     <p>{employee.job}</p>
                 </div>
