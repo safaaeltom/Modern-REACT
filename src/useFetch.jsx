@@ -27,15 +27,15 @@ const useFetch = (url) => {
             } else {
               setIsLoading(false);
               setError(err.message);
-            }
-          })
-      }, 5000);
+              }
+             })
+            }, 5000);
 
-      return () => {
-        console.log('cleanup: aborting fetch');
-        abortCont.abort();
-      };
-    }, [url]);
+        return () => {
+          console.log('cleanup: aborting fetch');
+          abortCont.abort();
+          };
+          }, [url]);
 
     return { data, isLoading, error }
 }
