@@ -36,17 +36,30 @@
 
 /* blog previews / list */
 .blog-preview {
-  padding: 10px 16px;
+  padding: 20px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 .blog-preview:hover {
   box-shadow: 2px 4px 6px 2px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
 }
 .blog-preview h2 {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+
+.blog-preview p {
+  color: #666;
+  margin: 6px 0;
+  line-height: 1.2;
+}
+
+.blog-preview a {
+  text-decoration: none;
 }
 .home button {
   background-color: #f0608b;
