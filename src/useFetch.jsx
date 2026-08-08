@@ -29,7 +29,7 @@ const useFetch = (url) => {
               setError(err.message);
               }
              })
-            }, 5000);
+            }, 2000);
 
         return () => {
           console.log('cleanup: aborting fetch');
