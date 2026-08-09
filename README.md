@@ -1,16 +1,35 @@
-# React + Vite
+# Modern React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React learning repository following a modern React tutorial.
 
-Currently, two official plugins are available:
+This repository is used to follow along with the tutorial, write the code myself, experiment with the examples, and practice the React concepts introduced throughout the course.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal is to build a practical understanding of React while gradually becoming comfortable with React syntax, patterns, and application structure.
 
-## React Compiler
+## Purpose
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This repository is primarily for learning and practice rather than being a finished production application.
 
-## Expanding the ESLint configuration
+It allows me to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Follow a structured React tutorial
+* Practice the concepts introduced in each lesson
+* Experiment with the tutorial code
+* Track progress through Git commits
+* Revisit previously learned React patterns
+* Build familiarity with React syntax through repeated use
+
+## Technologies
+
+* React
+* JavaScript
+* React Router
+* CSS
+* JSON Server
+* Git & GitHub
+
+## Repository Status
+
+This repository is actively being developed as I progress through the tutorial.
+
+The code may change frequently as new concepts are introduced, previous concepts are revisited, and different approaches are tested.
