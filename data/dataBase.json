@@ -2,33 +2,21 @@
   "blogs": [
     {
       "title": "My First Blog",
-      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?",
+      "body": "Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Where does it come from?",
       "author": "mario",
       "id": "1"
     },
     {
       "title": "Opening Party!",
-      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?",
+      "body": "Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Where does it come from?",
       "author": "yoshi",
       "id": "2"
     },
     {
-      "title": "xcv",
-      "body": "ejkr rtypl uiio",
-      "author": "mario",
-      "id": "ZY2KbTKfuSA"
-    },
-    {
-      "title": "Champions",
-      "body": "We are the champions my friend",
+      "title": "Yahya is smart",
+      "body": "Yahya is a 9-year-old boy. He is very smart and respectful. He loves to study hard and get good marks but he also likes to play football.",
       "author": "yoshi",
-      "id": "IttPJwk8JKs"
-    },
-    {
-      "title": "Modern react",
-      "body": "Modern react is nice but its a little confusing when you try to explore and practice on your own.",
-      "author": "mario",
-      "id": "w4RI89QHnbM"
+      "id": "UrMYP1cJuiw"
     }
   ],
   "employees": [
